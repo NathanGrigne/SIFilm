@@ -47,5 +47,5 @@ for (let i = 0; i < img.length; i++) {
      img[i].style.zIndex = i + 1
      img[i].style.top = (Math.random() - 0.5) * 20 + 'vh'
      img[i].style.left = (Math.random() - 0.5) * 50 + 'vw'
-  },(i+1)*200)
+  },(i+1)*750)
 }
