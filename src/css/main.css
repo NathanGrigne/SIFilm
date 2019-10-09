@@ -274,7 +274,6 @@ div#acces h1{
     margin: 0;
 }
 
-
 .passwordHacker input{
     width: 80%;
     height: 50px;
@@ -300,15 +299,23 @@ nav.navigationHacker ul{
     padding:0;
 }
 
+nav.navigationHacker li{
+  background-color: #FFF;
+}
+
 nav.navigationHacker a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000;
     text-transform: uppercase;
     font-size: 300%;
 }
 
+nav.navigationHacker a.red{
+  color: #BA1A1A;
+}
+
 nav.navigationHacker a:hover{
-    color: #BA1A1A;
+  color: #BA1A1A;
 }
 
 /* JoinTheFight */
@@ -335,7 +342,113 @@ nav.navigationHacker a:hover{
   font-size: 800%;
 }
 
+<<<<<<< HEAD
 .jtsMain{
   height: 100vh;
 }
 
+=======
+.videojts{
+  height: 50vh;
+}
+
+/* Navigation Join the Fight */
+
+nav.navigationjts{
+  margin-top: 10vh;
+  width: 100vw;
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+  color: #000;
+}
+
+nav.navigationjts ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding:0;
+}
+
+nav.navigationjts li{
+background-color: #FFF;
+}
+
+nav.navigationjts a{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 300%;
+}
+
+nav.navigationjts a.red{
+  color: #BA1A1A;
+}
+
+nav.navigationjts a:hover{
+  color: #BA1A1A;
+}
+
+/* See The Truth
+
+.sttody{
+  background-image: url('../static/images/backgroundHacker.jpg');
+  background-size: cover;
+}
+
+.sttHeader{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.sttHeaderContainer{
+  width: 50%;
+  text-align: center;
+}
+
+.sttHeader h1{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+  font-size: 800%;
+}
+
+.videostt{
+  height: 50vh;
+}
+
+/* Navigation Join the Fight */
+
+/* nav.navigationstt{
+  margin-top: 10vh;
+  width: 100vw;
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+  color: #000;
+}
+
+nav.navigationstt ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding:0;
+}
+
+nav.navigationstt li{
+background-color: #FFF;
+}
+
+nav.navigationstt a{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 300%;
+}
+
+nav.navigationstt a.red{
+  color: #BA1A1A;
+}
+
+nav.navigationstt a:hover{
+  color: #BA1A1A;
+} */
+>>>>>>> 1bf95268c2d6f2904820962ee744cffdfd956a94
