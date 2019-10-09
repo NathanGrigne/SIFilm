@@ -1,5 +1,15 @@
 @import '../sass/main.sass';
 
+@font-face {
+  font-family:"Carton";
+  src: url('../fonts/Carton.ttf');
+}
+
+@font-face {
+  font-family:"Checkpoint-Charlie";
+  src: url('../fonts/Checkpoint-Charlie.ttf');
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -137,13 +147,15 @@ div#acces{
 
 div#acces h1{
     text-transform: uppercase;
+    font-family: "Checkpoint-Charlie";
+    font-weight: 100;
     font-size: 800%;
     margin:0;
 }
 
 .passwordHacker{
     width: 30vw;
-    height:52vh;
+    height: 52vh;
     background-color: #000000B0;
     border-radius: 10px;
     text-align: center;
@@ -151,6 +163,8 @@ div#acces h1{
 }
 
 .passwordHacker h3{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
     font-size: 300%;
     margin: 0;
     text-transform: uppercase;
@@ -158,6 +172,8 @@ div#acces h1{
 }
 
 .passwordHacker h4#fck{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
     font-size: 500%;
     margin: 0;
     text-transform: uppercase;
@@ -185,6 +201,9 @@ div#acces h1{
 nav.navigationHacker{
     margin-top: 10vh;
     width: 100vw;
+    font-family: "Checkpoint-Charlie";
+    font-weight: 100;
+    color: #000;
 }
 
 nav.navigationHacker ul{
@@ -203,4 +222,32 @@ nav.navigationHacker a{
 
 nav.navigationHacker a:hover{
     color: #BA1A1A;
+}
+
+/* JoinTheFight */
+
+.jtsBody{
+  background-image: url('../static/images/backgroundHacker.jpg');
+  background-size: cover;
+}
+
+.jtsHeader{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.jtsHeaderContainer{
+  width: 50%;
+  text-align: center;
+}
+
+.jtsHeader h1{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+  font-size: 800%;
+}
+
+.jtsMain{
+  height: 100vh;
 }
