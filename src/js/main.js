@@ -1,9 +1,9 @@
-/*const video = document.querySelector('.videoTrailer')
+/* const video = document.querySelector('.videoTrailer')
 video.addEventListener('click', ()=>{
     video.muted = false
     video.volume = 1
 })
-
+*/
 let currentD = 00
 let currentH = 12
 let currentM = 00
