@@ -1,3 +1,5 @@
+@import '../sass/main.sass';
+
 body{
     padding: 0;
     margin: 0;
@@ -115,26 +117,68 @@ div#acces{
 div#acces h1{
     text-transform: uppercase;
     font-size: 1000%;
-    margin: 0;
+    margin:0;
 }
 
 .passwordHacker{
     width: 30vw;
-    height:50vh;
+    height:52vh;
     background-color: #000000B0;
     border-radius: 10px;
     text-align: center;
+    margin-top: 5vh;
 }
 
 .passwordHacker h3{
     font-size: 400%;
     margin: 0;
     text-transform: uppercase;
+    padding:3%;
 }
 
-.passwordHacker h4{
+.passwordHacker h4#fck{
     font-size: 900%;
     margin: 0;
     text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
+.passwordHacker h4#titleFormHacker{
+    text-transform: uppercase;
+    font-size: 300%;
+    margin: 0;
+}
+
+
+.passwordHacker input{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Navigation Hacker Page */
+
+nav.navigationHacker{
+    margin-top: 10vh;
+    width: 100vw;
+}
+
+nav.navigationHacker ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding:0;
+}
+
+nav.navigationHacker a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+nav.navigationHacker a:hover{
+    color: #BA1A1A;
+}
