@@ -198,6 +198,9 @@ div#acces h1{
 nav.navigationHacker{
     margin-top: 10vh;
     width: 100vw;
+    font-family: "Checkpoint-Charlie";
+    font-weight: 100;
+    color: #000;
 }
 
 nav.navigationHacker ul{
@@ -216,4 +219,32 @@ nav.navigationHacker a{
 
 nav.navigationHacker a:hover{
     color: #BA1A1A;
+}
+
+/* JoinTheFight */
+
+.jtsBody{
+  background-image: url('../static/images/backgroundHacker.jpg');
+  background-size: cover;
+}
+
+.jtsHeader{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.jtsHeaderContainer{
+  width: 50%;
+  text-align: center;
+}
+
+.jtsHeader h1{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+  font-size: 800%;
+}
+
+.jtsMain{
+  height: 100vh;
 }
