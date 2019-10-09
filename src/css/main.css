@@ -32,3 +32,13 @@ body, html {
 .text span {
     text-decoration: underline;
 }
+.glitchGun{
+    display: flex;
+    align-items: center;
+}
+
+main img{
+    width: 40vw;
+    height: auto;
+    padding: 10px;
+}

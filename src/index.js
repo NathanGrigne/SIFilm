@@ -10,4 +10,8 @@ import './sass/main.sass'
 // Import your JS like so
 import TestClass from './js/TestClass'
 
-new TestClass()
+options = {
+    autoplay: true,
+    muted: true
+  }
+  video = videojs('player', options);
