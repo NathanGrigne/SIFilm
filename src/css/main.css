@@ -21,6 +21,93 @@ body{
     color: #BA1A1A;
 }
 
+.hide{
+  display: none;
+}
+
+/* Governement Page */
+/* Header */
+
+header.headerGovernement{
+  background-image: url('../static/images/backgroundHomePage.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Main Governement Page */
+
+main .welcome{
+  width: 100vw;
+  height: 70vh;
+  background-color: #000D1C;
+  color: #FFFFFF;
+  position: relative;
+}
+
+main .infosHome{
+  display: flex;
+}
+
+main .imageWelcome{
+  background-image: url('../static/images/americanFlag.jpg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+main .welcome h3#welcome{
+  font-size: 450%;
+  text-transform: uppercase;
+  padding-left: 10vw;
+  margin-top: 5vh;
+}
+
+main .welcome p{
+  padding-left: 20vw;
+  font-size: 160%;
+  width: 500px;
+  line-height: 25px;
+  margin-top: 5vh;
+}
+
+main .bestSpot{
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  width: 430px;
+  height: 250px;
+  position: absolute;
+  right: 20px;
+  bottom: -30px;
+  box-shadow: 1px 1px #000, -1px 0 0 #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main #close{
+  width: 18px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+}
+
+main .bestSpot h3{
+  color: #000;
+  font-size: 350%;
+  padding-left: 10%;
+}
+
+main .bestSpot img{
+  padding-left: 10%;
+  width: 80%;
+  height: auto;
+}
+
 .glitchGun{
     display: flex;
     align-items: center;
@@ -251,3 +338,4 @@ nav.navigationHacker a:hover{
 .jtsMain{
   height: 100vh;
 }
+
