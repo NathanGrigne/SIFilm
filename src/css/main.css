@@ -1,37 +1,13 @@
-@font-face {
-    font-family: Heboo;
-    src: url('../static/fonts/heboo-bold.woff2') format('woff2');
-    font-weight: 600;
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
 }
 
-body, html {
-    background-color: #353b48;
-    font-family: 'Heboo';
-    color: white;
+.red{
+    color: #BA1A1A;
 }
 
-.container {
-    color: white;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text h1 {
-    color: white
-}
-
-.text p {
-    color: white;
-    font-weight: 300;
-}
-
-.text span {
-    text-decoration: underline;
-}
 .glitchGun{
     display: flex;
     align-items: center;
@@ -42,3 +18,123 @@ main img{
     height: auto;
     padding: 10px;
 }
+
+/* HACKER PAGE */
+/* Homepage */
+
+header.hackerHeader{
+    height: 100vh;
+    background-image: url('../static/images/backgroundHacker.jpg')
+}
+
+.scrolling{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.scrolling::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 80%;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+
+#scroll a {
+    padding-top: 70px;
+}
+#scroll a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes sdb05 {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+
+.scrolling a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.scrolling a:hover {
+    opacity: .5;
+}
+
+/* Main */
+
+main.hackerMain{
+    background-image: url('../static/images/backgroundHacker.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#acces{
+    text-align: center;
+}
+
+div#acces h1{
+    text-transform: uppercase;
+    font-size: 1000%;
+    margin: 0;
+}
+
+.passwordHacker{
+    width: 30vw;
+    height:50vh;
+    background-color: #000000B0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.passwordHacker h3{
+    font-size: 400%;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.passwordHacker h4{
+    font-size: 900%;
+    margin: 0;
+    text-transform: uppercase;
+}
+
