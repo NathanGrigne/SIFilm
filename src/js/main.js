@@ -5,11 +5,11 @@
 //     voice.volume = 1
 // })
 
-const voice = document.querySelector('#voicePurge')
-voice.addEventListener('mouseover', ()=>{
-    voice.muted = false
-    voice.volume = 1
-})
+// const voice = document.querySelector('#voicePurge')
+// voice.addEventListener('mouseover', ()=>{
+//     voice.muted = false
+//     voice.volume = 1
+// })
 
 // Timer
 

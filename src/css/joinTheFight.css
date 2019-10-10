@@ -34,6 +34,7 @@ body{
 
 .jtsHeader{
   color: #FFF;
+  height: 30vh;
   display: flex;
   justify-content: center;
 }
@@ -46,24 +47,29 @@ body{
 .jtsHeader h1{
   font-family: "Checkpoint-Charlie";
   font-weight: 100;
-  font-size: 800%;
+  font-size: 600%;
+  margin: 0 auto;
 }
 
 .jtsMain{
-  height: 100vh;
+  height: 45vh;
 }
 
 .videojts{
-  height: 80vh;
+  height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.videoTrailer{
+  width: 60%;
+}
+
 /* Navigation Hacker Part */
 
 nav.navigationHacker{
-    margin-top: 10vh;
+    margin-top: 18vh;
     width: 100vw;
     font-family: "Carton";
     font-weight: 100;
@@ -106,6 +112,7 @@ footer div{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15vh;
 }
 
 footer div p{
