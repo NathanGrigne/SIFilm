@@ -30,6 +30,10 @@ body{
   display: none;
 }
 
+.overflowY{
+  overflow-y: hidden;
+}
+
 /* Header */
 
 header.hackerHeader{
@@ -228,6 +232,7 @@ nav.navigationHacker a:hover{
 
 footer{
   margin: 0 auto;
+  position: relative;
 }
 
 footer div{
@@ -241,4 +246,12 @@ footer div{
 footer div p{
   color: #BA1A1A;
   font-size: 175%;
+}
+
+footer #blockPage{
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  bottom:0;
+  right: 0;
 }
