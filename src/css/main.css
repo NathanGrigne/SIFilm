@@ -601,3 +601,20 @@ nav.navigationstt a.red{
 nav.navigationstt a:hover{
   color: #BA1A1A;
 }
+
+footer{
+  margin: 0 auto;
+}
+
+footer div{
+  background-color: black;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div p{
+  color: #BA1A1A;
+  font-size: 175%;
+}
