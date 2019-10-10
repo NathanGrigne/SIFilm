@@ -139,7 +139,7 @@ header.headerGovernement{
 
 @keyframes slideUp{
   0% {
-      transform: translateY(800px);
+      transform: translateY(850px);
       opacity: .9;
   }
 

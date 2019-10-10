@@ -1,3 +1,16 @@
+// Warning Message
+
+// const button = document.querySelector('#button')
+// const voice = new Audio ('the-purge-countdown-and-announcement-hd-2015.mp3')
+
+
+
+// button.addEventListener('click', ()=>{
+//     voice.play()
+//     voice.muted = false
+//     voice.volume = 1
+// })
+
 // Timer
 
 let currentD = 163
