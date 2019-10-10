@@ -62,7 +62,7 @@ body{
 }
 
 .makingOf{
-  width: 60%;
+  width: 43%;
 }
 
 /* Navigation Hacker Part */
@@ -110,7 +110,7 @@ footer div{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
+  margin-top: 17vh;
 }
 
 footer div p{
