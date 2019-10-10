@@ -1,20 +1,3 @@
-// Warning Message
-
-const button = document.querySelector('#button_play')
-const stop = document.querySelector('#button_stop')
-const voice = new Audio ('../src/static/mp3/the-purge-countdown-and-announcement-hd-2015.mp3')
-button.addEventListener('click', ()=>{
-  voice.play()
-  voice.muted = false
-  voice.volume = 1
-})
-
-stop.addEventListener('click', ()=>{
-  voice.muted = false
-  voice.volume = 1
-  voice.pause()
-})
-
 // Timer
 
 let currentD = 163
