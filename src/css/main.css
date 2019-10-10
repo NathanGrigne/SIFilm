@@ -69,6 +69,22 @@ header.headerGovernement{
   overflow: hidden;
 }
 
+#button{
+  width: 35px;
+  padding: 0;
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgba(124, 39, 39, 0.315);
+  color: #B22234;
+  border-width: 1px;
+  border-image: 0%;
+  border-style: hidden;
+  border-radius: 50%;
+}
+
 .textscroll{
   position: absolute;
   width: 50%;
@@ -77,7 +93,7 @@ header.headerGovernement{
   font-size: 25px;
   line-height: 30px;
   transition: .5s;
-  animation: slideUp 10s;
+  animation: slideUp 15s;
   opacity: 0;
   color: #FFF;
   text-align: center;
@@ -91,7 +107,7 @@ header.headerGovernement{
   flex-direction: column;
   align-content: center;
   align-items: center;
-  animation: opacity 15s;
+  animation: opacity 20s;
   transition: 2s;
 }
 
