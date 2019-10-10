@@ -8,40 +8,21 @@ video.addEventListener('click', ()=>{
 
 // Password //
 
-const password = document.querySelector('.classified')
-let value = null
-password.addEventListener('keydown', function(_event){
-    value =  password.value
 
-    if(_event.key === 'Enter' && value === 'police' ){
-        document.createElement("div")
-        document.createElement("button")
-        document.createElement('a')
-        button.setAttribut('type','button')
-        button.innerText = 'Click Me'
-        div.appendChild('button')
-        button.appendChild('a')
-        a.setAttribut('href','../pages/seeTheTruth.html')
+// Block page //
 
-    }
-    else if(_event.key === 'Enter' && value === 'POLICE'){
-      document.createElement("div")
-      document.createElement("button")
-      document.createElement('a')
-      button.setAttribut('type','button')
-      button.innerText = 'Click Me'
-      div.appendChild('button')
-      button.appendChild('a')
-      a.setAttribut('href','../pages/seeTheTruth.html')
-    }
-    else(_event.key === 'Enter' && value === 'Police')
-      document.createElement("div")
-      document.createElement("button")
-      document.createElement('a')
-      button.setAttribut('type','button')
-      button.innerText = 'Click Me'
-      div.appendChild('button')
-      button.appendChild('a')
-      a.setAttribut('href','../pages/seeTheTruth.html')
+window.addEventListener('scroll', function() {
+	var element = document.querySelector('#blockPage');
+  var position = element.getBoundingClientRect();
+  var body = document.querySelector('body')
 
-})
+	// checking whether fully visible
+	if(position.top >= 0 && position.bottom <= window.innerHeight) {
+    body.classList.add('overflowY')
+	}
+
+	// checking for partial visibility
+	if(position.top < window.innerHeight && position.bottom >= 0) {   
+    body.classList.add('overflowY')
+  }
+});

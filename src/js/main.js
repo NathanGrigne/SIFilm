@@ -269,25 +269,27 @@ window.addEventListener('scroll', function() {
 	var element = document.querySelector('.gunsCard2');
   var position = element.getBoundingClientRect();
   window.clearTimeout(timer)
-  let url = '../pages/carmelosVideo.html'
+  var url = '../pages/carmelosVideo.html'
 
 	// checking whether fully visible
 	if(position.top >= 0 && position.bottom <= window.innerHeight) {
     videoHacker.classList.remove('hide') 
     body.classList.add('background')
+    body.classList.add('overflowY')
     timer = window.setTimeout(function() {
     window.location.href = 'src/pages/carmelosVideo.html';
     window.reload('true')
-  }, 18000)
+  }, 17000)
 	}
 
 	// checking for partial visibility
 	if(position.top < window.innerHeight && position.bottom >= 0) {   
     videoHacker.classList.remove('hide') 
     body.classList.add('background')
+    body.classList.add('overflowY')
     timer = window.setTimeout(function() {
     window.location.href = 'src/pages/carmelosVideo.html';
     window.reload('true')
-  }, 18000)
+  }, 17000)
   }
 });
