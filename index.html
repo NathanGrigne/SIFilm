@@ -10,7 +10,6 @@
     <title>American Nightmare 2: Anarchy</title>
 </head>
 <body>
-    <audio id="voicePurge" src="../src/static/mp3/the-purge-countdown-and-announcement-hd-2015.mp3" type="audio/mpeg" autoplay></audio>
     <header class="headerGovernement">
         <p class="textscroll">
             This is not a test.
@@ -111,10 +110,10 @@
                 </p>
             </div>
         </div>
-        <div class="bePrepared" id="goOn">
-            <h3 id="titleBePrepared">Be prepared</h3>
+        <div class="bePrepared">
+            <h3 id="titleBePrepared" class="glitchFont">Be prepared</h3>
             <div class="line"></div>
-            <div class="map">
+            <div class="map" id="goOn">
                 <img class="mapAll" src="src/static/images/mapBase.png" alt="map Los Angeles" id="mapBase">
                 <img class="hide mapAll" src="src/static/images/mapCar.png" alt="map Los Angeles car trafic" id="mapCar">
                 <img class="hide mapAll" src="src/static/images/mapSafe.png" alt="map Los Angeles safezone" id="mapSafe">
@@ -248,54 +247,66 @@
             <div class="line"></div>
             <div class="gunsCard1">
                 <div class="gun">
-                    <img src="src/static/images/gun_G.png" alt="image Sig Sauer P320 X-Five">
+                    <img src="src/static/images/gun_G.png" alt="image Sig Sauer P320 X-Five" class="gunImages">
                     <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
                     <h3>899.99$</h3>
                 </div>
-                <div class="gun">
-                    <img src="src/static/images/gun_U.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                <div class="gun glitchImage">
+                    <div class="imgGunG">
+                    </div>
+                    <p>Taurus 692 Revolver <br> 9mm Luger, 38 Special</p>
+                    <h3>475.99$</h3>
                 </div>
                 <div class="gun">
                     <img src="src/static/images/gun_N.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                    <p>PTR PTR-9CT Pistol <br> 9mm Luger 8.86</p>
+                    <h3>1681.00$</h3>
                 </div>
                 <div class="gun">
-                    <img src="src/static/images/gun_S.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                    <div class="imgGunG2 glitchImage2">
+                    </div>
+                    <p>Sig Sauer P220 Hunter <br> Pistol 10mm Auto 5</p>
+                    <h3>1379.99$</h3>
                 </div>
             </div>
             <div class="gunsCard2">
-                <div class="gun">
-                    <img src="src/static/images/gun_R.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                <div class="gun glitchImage3">
+                    <div class="imgGunG3">
+                    </div>
+                    <p>ZEV Technologies AR-15 <br> 3-Gun Billet Rifle</p>
+                    <h3>1499.99$</h3>
                 </div>
                 <div class="gun">
-                    <img src="src/static/images/gun_I.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                    <img src="src/static/images/gun_I.png" alt="image Sig Sauer P320 X-Five" class="gunImages">
+                    <p>Remington 700 Magpul <br> Enhanced Rifle 20"m</p>
+                    <h3>941.99$</h3>
                 </div>
-                <div class="gun">
-                    <img src="src/static/images/gun_F.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                <div class="gun glitchImage4">
+                    <div class="imgGunG4">
+                    </div>
+                    <p>LWRC REPR MKII Rifle <br> 7.62x51mm</p>
+                    <h3>3901.00$</h3>
                 </div>
-                <div class="gun">
-                    <img src="src/static/images/gun_L.png" alt="image Sig Sauer P320 X-Five">
-                    <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
-                    <h3>899.99$</h3>
+                <div class="gun glitchImage5">
+                    <div class="imgGunG5">
+                    </div>
+                    <p>Kel-Tec RDB Bullpup <br> Semi-Auto Rifle 5.56x45</p>
+                    <h3>843.99$</h3>
                 </div>
                 <div class="gun">
                     <div class="guns">
-                        <img src="src/static/images/gun_E.png" alt="image Sig Sauer P320 X-Five">
-                        <p>Sig Sauer P320 X-Five <br> Legion Pistol 9mm</p>
+                        <img src="src/static/images/gun_E.png" alt="image Sig Sauer P320 X-Five" class="gunImages">
+                        <p>IWI Galil Ace SAR Rifle <br> 16" Barrel Folding</p>
                     </div>
-                    <h3>899.99$</h3>
+                    <h3>2457.99$</h3>
                 </div>
+            </div>
+            <div class="videoHackerAction hide">
+                <video src="src/static/video/GlitchVideo.mp4" controls autoplay="true" muted class="videoHCK">
+                    <p>
+                        Your browser does not support the video tag! Update yourself!
+                    </p>
+                </video>
             </div>
         </div>
     </main>

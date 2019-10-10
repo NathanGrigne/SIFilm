@@ -19,7 +19,7 @@ body{
     margin: 0;
     font-size: 62.5%;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .red{
