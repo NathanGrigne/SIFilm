@@ -68,6 +68,36 @@ header.headerGovernement{
   position: relative;
   overflow: hidden;
 }
+/* 
+#button_play{
+  width: 35px;
+  padding: 0;
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgba(39, 189, 64, 0.315);
+  border-width: 1px;
+  border-image: 0%;
+  border-style: hidden;
+  border-radius: 50%;
+}
+
+#button_stop{
+  width: 35px;
+  padding: 0;
+  position: absolute;
+  top: 8vh;
+  left: 0vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgba(189, 39, 39, 0.315);
+  border-width: 1px;
+  border-image: 0%;
+  border-style: hidden;
+  border-radius: 50%;
+} */
 
 .textscroll{
   position: absolute;
