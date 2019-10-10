@@ -1,0 +1,243 @@
+@import '../sass/main.sass';
+
+@font-face {
+  font-family:"Carton";
+  src: url('../fonts/Carton.ttf');
+}
+
+@font-face {
+  font-family:"Checkpoint-Charlie";
+  src: url('../fonts/Checkpoint-Charlie.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.red{
+    color: #BA1A1A;
+}
+
+.hide{
+  display: none;
+}
+
+/* Header */
+
+header.hackerHeader{
+    height: 100vh;
+    background-color: #000000;
+}
+
+div.videoHack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div.videoHack::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+div.videoHack h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 64px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#scroll a {
+  padding-top: 70px;
+}
+#scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.demo a:hover {
+  opacity: .5;
+}
+
+/* Main */
+
+
+video.videoTrailer{
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 3;
+}
+
+main.hackerMain{
+    background-image: url('../static/images/backgroundHacker.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#acces{
+    text-align: center;
+}
+
+div#acces h1{
+    text-transform: uppercase;
+    font-family: "Checkpoint-Charlie";
+    font-weight: 100;
+    font-size: 800%;
+    margin:0;
+}
+
+.passwordHacker{
+    width: 30vw;
+    height: 52vh;
+    background-color: #000000B0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.passwordHacker h3{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+    font-size: 300%;
+    margin: 0;
+    text-transform: uppercase;
+    padding:3%;
+}
+
+.passwordHacker h4#fck{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+    font-size: 500%;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.passwordHacker h4#titleFormHacker{
+    text-transform: uppercase;
+    font-size: 200%;
+    margin: 0;
+}
+
+.passwordHacker input{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 300%;
+}
+
+/* Navigation Hacker Page */
+
+nav.navigationHacker{
+    margin-top: 10vh;
+    width: 100vw;
+    font-family: "Checkpoint-Charlie";
+    font-weight: 100;
+    color: #000;
+}
+
+nav.navigationHacker ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding:0;
+}
+
+nav.navigationHacker li{
+  background-color: #FFF;
+}
+
+nav.navigationHacker a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+nav.navigationHacker a.red{
+  color: #BA1A1A;
+}
+
+nav.navigationHacker a:hover{
+  color: #BA1A1A;
+}
+
+/* Footer Hacker Part */
+
+footer{
+  margin: 0 auto;
+}
+
+footer div{
+  background-color: black;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div p{
+  color: #BA1A1A;
+  font-size: 175%;
+}

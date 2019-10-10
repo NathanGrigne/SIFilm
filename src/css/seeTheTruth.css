@@ -1,0 +1,126 @@
+@import '../sass/main.sass';
+
+@font-face {
+  font-family:"Carton";
+  src: url('../fonts/Carton.ttf');
+}
+
+@font-face {
+  font-family:"Checkpoint-Charlie";
+  src: url('../fonts/Checkpoint-Charlie.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.red{
+    color: #BA1A1A;
+}
+
+.hide{
+  display: none;
+}
+
+/*See The Truth*/
+
+.sttBody{
+  background-image: url('../static/images/backgroundHacker.jpg');
+  background-size: cover;
+}
+
+.sttHeader{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.sttHeaderContainer{
+  width: 50%;
+  text-align: center;
+  z-index: 100;
+}
+
+.sttHeader h1{
+  font-family: "Checkpoint-Charlie";
+  font-weight: 100;
+  font-size: 800%;
+  margin: 0 auto;
+}
+
+/* See The Truth Animation */
+
+#dossier{
+  position: relative;
+  height: 60vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+#dossier img{
+  display: none;
+  transform: scale(10);
+  position: absolute;
+  transition: all .5s ease-out;
+}
+#dossier img.animate{
+  display: block;
+  transform: scale(1);
+}
+
+/* Navigation Hacker Part */
+
+nav.navigationHacker{
+    margin-top: 10vh;
+    width: 100vw;
+    font-family: "Checkpoint-Charlie";
+    font-weight: 100;
+    color: #000;
+}
+
+nav.navigationHacker ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding:0;
+}
+
+nav.navigationHacker li{
+  background-color: #FFF;
+}
+
+nav.navigationHacker a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+nav.navigationHacker a.red{
+  color: #BA1A1A;
+}
+
+nav.navigationHacker a:hover{
+  color: #BA1A1A;
+}
+
+/* Footer Hacker Part */
+
+footer{
+  margin: 0 auto;
+}
+
+footer div{
+  background-color: black;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div p{
+  color: #BA1A1A;
+  font-size: 175%;
+}
