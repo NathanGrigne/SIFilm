@@ -297,7 +297,6 @@ main .bestSpot img{
   position: absolute;
   top: 10px;
   left: 10px;
-  
 }
 
 .filterMap .research{
@@ -329,17 +328,13 @@ main .bestSpot img{
   margin-bottom: 4px;
 }
 
-.filterMap .filterIcoTop img{
+.filterMap .filterAllIco img{
   width: 48px;
   height: auto;
+  padding: 2px;
 }
 
 .filterMap .filterIcoBottom{
   display: flex;
   text-align: center;
-}
-
-.filterMap .filterIcoBottom img{
-  width: 48px;
-  height: auto;
 }
