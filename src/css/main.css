@@ -125,11 +125,35 @@ header.headerGovernement{
   font-size: 25px;
   font-weight: bold;
   color: #FFF;
-  width: 78%;
+  width: 100%;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
-  padding: 0 0 0 70px;
+  padding: 0 0 0 30px;
+}
+
+.days{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.hours{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.minutes{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.secondes{
+  width: 25%;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes opacity{
@@ -148,7 +172,7 @@ header.headerGovernement{
 
 @keyframes slideUp{
   0% {
-      transform: translateY(800px);
+      transform: translateY(850px);
       opacity: .9;
   }
 
