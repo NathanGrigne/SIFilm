@@ -1,10 +1,7 @@
 // Warning Message
 
 // const button = document.querySelector('#button')
-// const voice = new Audio ('the-purge-countdown-and-announcement-hd-2015.mp3')
-
-
-
+// const voice = new Audio ('../src/static/mp3/the-purge-countdown-and-announcement-hd-2015.mp3')
 // button.addEventListener('click', ()=>{
 //     voice.play()
 //     voice.muted = false
@@ -15,7 +12,7 @@
 
 let currentD = 163
 let currentH = 12
-let currentM = 11
+let currentM = 43
 let currentS = 00
 
 window.onload = decompte ()
