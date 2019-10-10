@@ -333,7 +333,7 @@ main .bestSpot img{
 
 /* Form Community Governement Page */
 
-.formCommunity h3{
+.formCommunity h3#questionCommunity{
   font-size: 280%;
   color: #707070;
 }
@@ -720,6 +720,42 @@ height: 100%;
 width: 100%;
 opacity: .8;
 }
+
+.glitchFont2 {
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  }
+  
+  .glitchFont2:before {
+  color: #B22234;
+  z-index: -1;
+  animation: glitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
+  display: block;
+  content: 'the party *';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+  }
+  
+  .glitchFont2:after {
+  color: #3C3B6E;
+  z-index: -2;
+  animation: glitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
+  display: block;
+  content: 'the party *';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+  }
 
 @keyframes glitch {
   0% {
