@@ -10,11 +10,16 @@
   src: url('../fonts/Checkpoint-Charlie.ttf');
 }
 
+html{
+  width: 100%;
+}
+
 body{
     padding: 0;
     margin: 0;
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 .red{
@@ -96,7 +101,7 @@ div.videoHack h1 {
 .demo a {
   position: absolute;
   bottom: 20px;
-  left: 50%;
+  left: 47%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -118,15 +123,15 @@ div.videoHack h1 {
 video.videoTrailer{
     height: 85%;
     position: absolute;
-    top: 0;
-    left: 10%;
+    top: -9px;
+    left: 15%;
     z-index: 3;
 }
 
 main.hackerMain{
     background-image: url('../static/images/backgroundHacker.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 89vh;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -190,7 +195,7 @@ div#acces h1{
 /* Navigation Hacker Page */
 
 nav.navigationHacker{
-    margin-top: 10vh;
+    margin-top: 1vh;
     width: 100vw;
     font-family: "Carton";
     font-weight: 100;
