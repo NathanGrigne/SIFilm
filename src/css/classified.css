@@ -25,44 +25,43 @@ body{
   display: none;
 }
 
-/* JoinTheFight */
+/* Classified */
 
-.jtsBody{
+.classifiedBody{
   background-image: url('../static/images/backgroundHacker.jpg');
   background-size: cover;
 }
 
-.jtsHeader{
+.classifiedHeader{
   color: #FFF;
   height: 30vh;
   display: flex;
   justify-content: center;
 }
 
-.jtsHeaderContainer{
+.classifiedHeaderContainer{
   width: 50%;
   text-align: center;
 }
 
-.jtsHeader h1{
+.classifiedHeader h1{
   font-family: "Checkpoint-Charlie";
   font-weight: 100;
-  font-size: 700%;
-  margin: 0 auto;
+  font-size: 800%;
 }
 
-.jtsMain{
+.classifiedMain{
   height: 45vh;
 }
 
-.videojts{
+.videoclassified{
   height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.videoTrailer{
+.makingOf{
   width: 60%;
 }
 
@@ -111,7 +110,7 @@ footer div{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 17vh;
+  margin-top: 15vh;
 }
 
 footer div p{
