@@ -28,6 +28,10 @@ body{
 /* Governement Page */
 /* Header */
 
+#voicePurge{
+  display: none;
+}
+
 header.headerGovernement{
   background-image: url('../static/images/backgroundHomePage.jpg');
   background-size: cover;
@@ -41,7 +45,7 @@ header.headerGovernement{
 .textscroll{
   position: absolute;
   width: 50%;
-  font-family: sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   font-size: 25px;
   line-height: 30px;
   transition: .5s;
@@ -123,12 +127,12 @@ header.headerGovernement{
   }
 
   90% {
-      transform: translateY(75px);
+      transform: translateY(25px);
       opacity: 1;
   }
 
   100% {
-      transform: translateY(75px);
+      transform: translateY(25px);
       opacity: 0;
   }
 }
@@ -385,9 +389,8 @@ div#acces h1{
 nav.navigationHacker{
     margin-top: 10vh;
     width: 100vw;
-    font-family: "Checkpoint-Charlie";
+    font-family: "Carton";
     font-weight: 100;
-    color: #000;
 }
 
 nav.navigationHacker ul{
@@ -397,13 +400,10 @@ nav.navigationHacker ul{
     padding:0;
 }
 
-nav.navigationHacker li{
-  background-color: #FFF;
-}
 
 nav.navigationHacker a{
     text-decoration: none;
-    color: #000;
+    color: #FFF;
     text-transform: uppercase;
     font-size: 300%;
 }
@@ -445,7 +445,9 @@ nav.navigationHacker a:hover{
 }
 
 .videojts{
-  height: 50vh;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
 }
 
 /* Navigation Join the Fight */
@@ -453,7 +455,7 @@ nav.navigationHacker a:hover{
 nav.navigationjts{
   margin-top: 10vh;
   width: 100vw;
-  font-family: "Checkpoint-Charlie";
+  font-family: "Carton";
   font-weight: 100;
   color: #000;
 }
@@ -465,13 +467,10 @@ nav.navigationjts ul{
   padding:0;
 }
 
-nav.navigationjts li{
-background-color: #FFF;
-}
 
 nav.navigationjts a{
   text-decoration: none;
-  color: #000;
+  color: #FFF;
   text-transform: uppercase;
   font-size: 300%;
 }
@@ -533,7 +532,7 @@ nav.navigationjts a:hover{
 nav.navigationstt{
   width: 100vw;
   margin-top: 10vh;
-  font-family: "Checkpoint-Charlie";
+  font-family: "Carton";
   font-weight: 100;
   color: #000;
   z-index: 100;
@@ -548,13 +547,9 @@ nav.navigationstt ul{
   padding:0;
 }
 
-nav.navigationstt li{
-background-color: #FFF;
-}
-
 nav.navigationstt a{
   text-decoration: none;
-  color: #000;
+  color: #FFF;
   text-transform: uppercase;
   font-size: 300%;
 }

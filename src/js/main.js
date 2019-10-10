@@ -35,6 +35,15 @@ function decompte(){
   }, 1000);
 }
 
+let voice = document.querySelector("voicePurge")
+  voice.play()
+
+// let voice = document.getElementById("voicePurge");
+// let header = document.getElementById("headerGovernement")
+// header.addEventListener("click", function(){
+//   voice.play()
+// })
+
 //Random Image Animation
 
 const img = document.querySelectorAll("#dossier img")
@@ -43,7 +52,6 @@ const folder = document.querySelector("#dossier")
 for (let i = 0; i < img.length; i++) {
   setTimeout(function(){
      const angle = (Math.random() - 0.5) * 30
-
      img[i].classList.toggle('animate')
      img[i].style.transform = 'scale(1) rotate('+ angle +'deg)'
      img[i].style.zIndex = i + 1
