@@ -7,7 +7,7 @@ video.addEventListener('click', ()=>{
 
 // Timer
 
-let currentD = 00
+let currentD = 0
 let currentH = 12
 let currentM = 00
 let currentS = 00
@@ -15,7 +15,7 @@ let currentS = 00
 window.onload = decompte ()
 function decompte(){
   let intervalId =setInterval(function(){
-  document.querySelector("#timer").innerHTML = currentD +":"+ currentH +":"+ currentM +":"+  currentS
+  document.querySelector("#timer").innerHTML = currentD +" : "+ currentH +" : "+ currentM +" : "+  currentS
      currentS--
     if (currentS < 0){
       currentM--
