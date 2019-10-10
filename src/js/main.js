@@ -8,6 +8,10 @@ header.addEventListener('mousemove', ()=>{
     voice.volume = 1
 })
 
+header.addEventListener('click', ()=>{
+  voice.pause()
+})
+
 // Timer
 
 let currentD = 163
