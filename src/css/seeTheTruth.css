@@ -117,6 +117,7 @@ footer div{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 6vh;
 }
 
 footer div p{

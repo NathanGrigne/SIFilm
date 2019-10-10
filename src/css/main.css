@@ -40,16 +40,18 @@ header.headerGovernement{
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .textscroll{
   position: absolute;
   width: 50%;
+  margin-left: 30px;
   font-family: 'Source Code Pro', sans-serif;
   font-size: 25px;
   line-height: 30px;
   transition: .5s;
-  animation: slideUp 20s;
+  animation: slideUp 30s;
   opacity: 0;
   color: #FFF;
   text-align: center;
@@ -57,12 +59,13 @@ header.headerGovernement{
 
 .container_2{
   width: 50%;
+  margin-left: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  animation: opacity 25s;
+  animation: opacity 35s;
   transition: 2s;
 }
 
@@ -84,6 +87,7 @@ header.headerGovernement{
 .tr{
   color: #FFF;
   font-size: 30px;
+  font-family: 'Roboto';
 }
 
 #timer{
@@ -93,14 +97,14 @@ header.headerGovernement{
 
 .container_4{
   font-size: 25px;
+  font-weight: bold;
   color: #FFF;
   width: 78%;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  padding: 0 0 0 70px;
 }
-
-
 
 @keyframes opacity{
   0%{
@@ -127,12 +131,12 @@ header.headerGovernement{
   }
 
   90% {
-      transform: translateY(25px);
+      transform: translateY(10px);
       opacity: 1;
   }
 
   100% {
-      transform: translateY(25px);
+      transform: translateY(10px);
       opacity: 0;
   }
 }

@@ -1,14 +1,8 @@
-const voice = document.querySelector('#voicePurge')
-voice.addEventListener('mouseover', ()=>{
-    voice.muted = false
-    voice.volume = 1
-})
-
 // Timer
 
-let currentD = 0
-let currentH = 12
-let currentM = 00
+let currentD = 163
+let currentH = 11
+let currentM = 45
 let currentS = 00
 
 window.onload = decompte ()
