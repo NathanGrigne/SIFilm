@@ -1,8 +1,8 @@
 // Timer
 
-let currentD = 163
-let currentH = 11
-let currentM = 45
+let currentD = 0
+let currentH = 12
+let currentM = 00
 let currentS = 00
 
 window.onload = decompte ()

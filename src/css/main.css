@@ -67,7 +67,7 @@ header.headerGovernement{
   font-size: 25px;
   line-height: 30px;
   transition: .5s;
-  animation: slideUp 30s;
+  animation: slideUp 10s;
   opacity: 0;
   color: #FFF;
   text-align: center;
@@ -81,7 +81,7 @@ header.headerGovernement{
   flex-direction: column;
   align-content: center;
   align-items: center;
-  animation: opacity 35s;
+  animation: opacity 15s;
   transition: 2s;
 }
 
