@@ -28,6 +28,10 @@ body{
 /* Governement Page */
 /* Header */
 
+#voicePurge{
+  display: none;
+}
+
 header.headerGovernement{
   background-image: url('../static/images/backgroundHomePage.jpg');
   background-size: cover;
@@ -41,7 +45,7 @@ header.headerGovernement{
 .textscroll{
   position: absolute;
   width: 50%;
-  font-family: sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   font-size: 25px;
   line-height: 30px;
   transition: .5s;
@@ -123,12 +127,12 @@ header.headerGovernement{
   }
 
   90% {
-      transform: translateY(75px);
+      transform: translateY(25px);
       opacity: 1;
   }
 
   100% {
-      transform: translateY(75px);
+      transform: translateY(25px);
       opacity: 0;
   }
 }
