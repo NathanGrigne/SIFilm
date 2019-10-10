@@ -41,6 +41,11 @@ header.hackerHeader{
     background-color: #000000;
 }
 
+.hackerHeader #goBack{
+  color: #FFF;
+  text-decoration: none;
+}
+
 div.videoHack {
   position: relative;
   width: 100%;
