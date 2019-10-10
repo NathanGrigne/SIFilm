@@ -113,7 +113,7 @@
                 </p>
             </div>
         </div>
-        <div class="bePrepared">
+        <div class="bePrepared" id="goOn">
             <h3>Be prepared</h3>
             <div class="map">
                 <img class="mapAll" src="src/static/images/mapBase.png" alt="map Los Angeles" id="mapBase">
@@ -129,29 +129,29 @@
                     <div class="filterAllIco">
                         <div class="filterIcoTop">
                             <div class="fight">
-                                <img src="src/static/images/gunIco.png" alt="icon gun" id="fight">
+                                <a href="#goOn"><img src="src/static/images/gunIco.png" alt="icon gun" id="fight"></a>
                                 <h3>Fight</h3>
                             </div>
                             <div class="safe">
-                                <img src="src/static/images/safeIco.png" alt="icon safe zone" id="safe">
+                                <a href="#goOn"><img src="src/static/images/safeIco.png" alt="icon safe zone" id="safe"></a>
                                 <h3>Safe</h3>
                             </div>
                             <div class="war">
-                                <img src="src/static/images/warIco.png" alt="icon conflict zone" id="war">
+                                <a href="#goOn"><img src="src/static/images/warIco.png" alt="icon conflict zone" id="war"></a>
                                 <h3>War</h3>
                             </div>
                         </div>
                         <div class="filterIcoBottom">
                             <div class="car">
-                                <img src="src/static/images/carIco.png" alt="icon car" id=car>
+                                <a href="#goOn"><img src="src/static/images/carIco.png" alt="icon car" id=car></a>
                                 <h3>Car</h3>
                             </div>
                             <div class="cam">
-                                <img src="src/static/images/camIco.png" alt="icon cam zone" id="cam">
+                                <a href="#goOn"><img src="src/static/images/camIco.png" alt="icon cam zone" id="cam"></a>
                                 <h3>Cam</h3>
                             </div>
                             <div class="twitch">
-                                <img src="src/static/images/twitchIco.png" alt="icon conflict zone" id="twitch">
+                                <a href="#goOn"><img src="src/static/images/twitchIco.png" alt="icon conflict zone" id="twitch"></a>
                                 <h3>Live</h3>
                             </div>
                         </div>
@@ -166,6 +166,81 @@
                     <img src="src/static/images/buttonCam.png" alt="securityCamera" class="buttonSecurityCamera hide" id="securityCamera1">
                     <img src="src/static/images/buttonCam.png" alt="securityCamera" class="buttonSecurityCamera hide" id="securityCamera2">
                     <img src="src/static/images/buttonCam.png" alt="securityCamera" class="buttonSecurityCamera hide" id="securityCamera3">
+                </div>
+                <div class="videoTwitch hide" id="videoTwitch1">
+                    <div class="headerVideo">
+                        <img src="src/static/images/poutine.jpg">
+                        <h3>Vladimir Poutine</h3>
+                        <p>@VlaPoutine</p>
+                        <p id="date">21 Mars 2023</p>
+                        <img src="src/static/images/close.png" alt="close" id="closeVideo1">
+                    </div>
+                    <video controls src="src/static/video/twitch 1.mp4" type="video/mp4" muted autoplay="true" class="twitchPopUp" id="twitchPopUp1">
+                        <p>
+                            Your browser does not support the video tag! Update yourself!
+                        </p>
+                    </video>
+                </div>
+                <div class="videoTwitch hide" id="videoTwitch2">
+                    <div class="headerVideo">
+                        <img src="src/static/images/cemcem.jpg">
+                        <h3>CEMCEM</h3>
+                        <p>@CEMCEMYT</p>
+                        <p id="date">21 Mars 2023</p>
+                        <img src="src/static/images/close.png" alt="close" id="closeVideo2">
+                    </div>
+                    <video controls src="src/static/video/twitch 2.mp4" type="video/mp4" muted autoplay="true" class="twitchPopUp" id="twitchPopUp1">
+                        <p>
+                            Your browser does not support the video tag! Update yourself!
+                        </p>
+                    </video>
+                </div>
+                <div class="videoTwitch hide" id="videoTwitch3">
+                    <div class="headerVideo">
+                        <img src="src/static/images/MLP.jpg">
+                        <h3>Marine Le Pen</h3>
+                        <p>@MarineLP</p>
+                        <p id="date">21 Mars 2023</p>
+                        <img src="src/static/images/close.png" alt="close" id="closeVideo3">
+                    </div>
+                    <video controls src="src/static/video/twitch 3.mp4" type="video/mp4" muted autoplay="true" class="twitchPopUp" id="twitchPopUp1">
+                        <p>
+                            Your browser does not support the video tag! Update yourself!
+                        </p>
+                    </video>
+                </div>
+                <div class="videoSecurity hide" id="videoSecurity1">
+                        <div class="headerVideoSecurity">
+                            <h3 id="date">21 Mars 2023</h3>
+                            <img src="src/static/images/close.png" alt="close" id="closeVideo4">
+                        </div>
+                    <video controls src="src/static/video/security1.mp4" type="video/mp4" muted autoplay="true" class="securityPopUp" id="securityPopUp1">
+                        <p>
+                            Your browser does not support the video tag! Update yourself!
+                        </p>
+                    </video>
+                </div>
+                <div class="videoSecurity hide" id="videoSecurity2">
+                        <div class="headerVideoSecurity">
+                            <h3 id="date">21 Mars 2023</h3>
+                            <img src="src/static/images/close.png" alt="close" id="closeVideo5">
+                        </div>
+                    <video controls src="src/static/video/security1.mp4" type="video/mp4" muted autoplay="true" class="securityPopUp" id="securityPopUp1">
+                        <p>
+                            Your browser does not support the video tag! Update yourself!
+                        </p>
+                    </video>
+                </div>
+                <div class="videoSecurity hide" id="videoSecurity3">
+                        <div class="headerVideoSecurity">
+                            <h3 id="date">21 Mars 2023</h3>
+                            <img src="src/static/images/close.png" alt="close" id="closeVideo6">
+                        </div>
+                    <video controls src="src/static/video/security1.mp4" type="video/mp4" muted autoplay="true" class="securityPopUp" id="securityPopUp1">
+                        <p>
+                            Your browser does not support the video tag! Update yourself!
+                        </p>
+                    </video>
                 </div>
             </div>
         </div>

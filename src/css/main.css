@@ -382,3 +382,114 @@ main .bestSpot img{
   left: 550px;
   width: 30px;
 }
+
+/* Video Twitch */
+
+.videoTwitch{
+  width: 300px;
+  height: 250px;
+  background-color: #FFF;
+  border-radius: 5px;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.videoTwitch .headerVideo{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.videoTwitch .headerVideo h3{
+  margin-left: 2%;
+}
+
+.videoTwitch .headerVideo #date{
+  margin-left: 5%;
+}
+
+.videoTwitch img{
+  width: 48px;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.twitchPopUp{
+  width: 90%;
+  margin-left: 5%;
+}
+
+#closeVideo1{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#closeVideo2{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#closeVideo3{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.videoSecurity{
+  width: 300px;
+  height: 220px;
+  background-color: #FFF;
+  border-radius: 5px;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.securityPopUp{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.headerVideoSecurity h3{
+  margin: 0;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 200%;
+}
+
+#closeVideo4{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#closeVideo5{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#closeVideo6{
+  width: 16px;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

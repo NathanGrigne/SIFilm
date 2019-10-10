@@ -70,6 +70,9 @@ safeIco.addEventListener('click',function(){
     buttonSecurityCamera1.classList.add('hide')
     buttonSecurityCamera2.classList.add('hide')
     buttonSecurityCamera3.classList.add('hide')
+    videoTwitch1.classList.add('hide')
+    videoTwitch2.classList.add('hide')
+    videoTwitch3.classList.add('hide')
   }
   else{
     mapSafe.classList.add('hide')
@@ -90,6 +93,9 @@ carIco.addEventListener('click',function(){
     buttonSecurityCamera1.classList.add('hide')
     buttonSecurityCamera2.classList.add('hide')
     buttonSecurityCamera3.classList.add('hide')
+    videoTwitch1.classList.add('hide')
+    videoTwitch2.classList.add('hide')
+    videoTwitch3.classList.add('hide')
   }
   else{
     mapCar.classList.add('hide')
@@ -110,6 +116,9 @@ warIco.addEventListener('click',function(){
     buttonSecurityCamera1.classList.add('hide')
     buttonSecurityCamera2.classList.add('hide')
     buttonSecurityCamera3.classList.add('hide')
+    videoTwitch1.classList.add('hide')
+    videoTwitch2.classList.add('hide')
+    videoTwitch3.classList.add('hide')
   }
   else{
     mapWar.classList.add('hide')
@@ -130,6 +139,9 @@ twitchIco.addEventListener('click',function(){
     buttonSecurityCamera1.classList.add('hide')
     buttonSecurityCamera2.classList.add('hide')
     buttonSecurityCamera3.classList.add('hide')
+    videoTwitch1.classList.add('hide')
+    videoTwitch2.classList.add('hide')
+    videoTwitch3.classList.add('hide')
   }
   else{
     mapTwitch.classList.add('hide')
@@ -153,6 +165,9 @@ fightIco.addEventListener('click',function(){
     buttonSecurityCamera1.classList.add('hide')
     buttonSecurityCamera2.classList.add('hide')
     buttonSecurityCamera3.classList.add('hide')
+    videoTwitch1.classList.add('hide')
+    videoTwitch2.classList.add('hide')
+    videoTwitch3.classList.add('hide')
   }
   else{
 
@@ -169,6 +184,12 @@ camIco.addEventListener('click',function(){
     mapSafe.classList.add('hide')
     mapCar.classList.add('hide')
     mapWar.classList.add('hide')
+    buttonLiveTwitch1.classList.add('hide')
+    buttonLiveTwitch2.classList.add('hide')
+    buttonLiveTwitch3.classList.add('hide')
+    videoTwitch1.classList.add('hide')
+    videoTwitch2.classList.add('hide')
+    videoTwitch3.classList.add('hide')
   }
   else if(buttonSecurityCamera1.classList.contains('hide')){
     buttonSecurityCamera1.classList.remove('hide')
@@ -180,4 +201,68 @@ camIco.addEventListener('click',function(){
     buttonSecurityCamera2.classList.add('hide')
     buttonSecurityCamera3.classList.add('hide')
   }
+})
+
+/* Video Twitch/Camera */
+
+const closeVideo1 = document.querySelector('#closeVideo1')
+const closeVideo2 = document.querySelector('#closeVideo2')
+const closeVideo3 = document.querySelector('#closeVideo3')
+const videoTwitch1 = document.querySelector('#videoTwitch1')
+const videoTwitch2 = document.querySelector('#videoTwitch2')
+const videoTwitch3 = document.querySelector('#videoTwitch3')
+
+closeVideo1.addEventListener('click',function(){
+  videoTwitch1.classList.add('hide')
+})
+
+closeVideo2.addEventListener('click',function(){
+  videoTwitch2.classList.add('hide')
+})
+
+closeVideo3.addEventListener('click',function(){
+  videoTwitch3.classList.add('hide')
+})
+
+buttonLiveTwitch1.addEventListener('click',function(){
+  videoTwitch1.classList.remove('hide')
+})
+
+buttonLiveTwitch2.addEventListener('click',function(){
+  videoTwitch2.classList.remove('hide')
+})
+
+buttonLiveTwitch3.addEventListener('click',function(){
+  videoTwitch3.classList.remove('hide')
+})
+
+const closeVideo4 = document.querySelector('#closeVideo4')
+const closeVideo5 = document.querySelector('#closeVideo5')
+const closeVideo6 = document.querySelector('#closeVideo6')
+const videoSecurity1 = document.querySelector('#videoSecurity1')
+const videoSecurity2 = document.querySelector('#videoSecurity2')
+const videoSecurity3 = document.querySelector('#videoSecurity3')
+
+closeVideo4.addEventListener('click',function(){
+  videoSecurity1.classList.add('hide')
+})
+
+closeVideo5.addEventListener('click',function(){
+  videoSecurity2.classList.add('hide')
+})
+
+closeVideo6.addEventListener('click',function(){
+  videoSecurity3.classList.add('hide')
+})
+
+buttonSecurityCamera1.addEventListener('click',function(){
+  videoSecurity1.classList.remove('hide')
+})
+
+buttonSecurityCamera2.addEventListener('click',function(){
+  videoSecurity2.classList.remove('hide')
+})
+
+buttonSecurityCamera3.addEventListener('click',function(){
+  videoSecurity3.classList.remove('hide')
 })
