@@ -1,10 +1,3 @@
-// const voice = document.querySelector('#voicePurge')
-// const header = document.querySelector('.headerGovernement')
-// header.addEventListener('click', ()=>{
-//     voice.muted = false
-//     voice.volume = 1
-// })
-
 const voice = document.querySelector('#voicePurge')
 voice.addEventListener('mouseover', ()=>{
     voice.muted = false
@@ -59,6 +52,11 @@ const buttonLiveTwitch1 = document.querySelector('#buttonLive1')
 const buttonLiveTwitch2 = document.querySelector('#buttonLive2')
 const buttonLiveTwitch3 = document.querySelector('#buttonLive3')
 
+const buttonSecurityCamera1 = document.querySelector('#securityCamera1')
+const buttonSecurityCamera2 = document.querySelector('#securityCamera2')
+const buttonSecurityCamera3 = document.querySelector('#securityCamera3')
+
+
 safeIco.addEventListener('click',function(){
   if(mapSafe.classList.contains('hide')){
     mapSafe.classList.remove('hide')
@@ -69,6 +67,9 @@ safeIco.addEventListener('click',function(){
     buttonLiveTwitch1.classList.add('hide')
     buttonLiveTwitch2.classList.add('hide')
     buttonLiveTwitch3.classList.add('hide')
+    buttonSecurityCamera1.classList.add('hide')
+    buttonSecurityCamera2.classList.add('hide')
+    buttonSecurityCamera3.classList.add('hide')
   }
   else{
     mapSafe.classList.add('hide')
@@ -86,6 +87,9 @@ carIco.addEventListener('click',function(){
     buttonLiveTwitch1.classList.add('hide')
     buttonLiveTwitch2.classList.add('hide')
     buttonLiveTwitch3.classList.add('hide')
+    buttonSecurityCamera1.classList.add('hide')
+    buttonSecurityCamera2.classList.add('hide')
+    buttonSecurityCamera3.classList.add('hide')
   }
   else{
     mapCar.classList.add('hide')
@@ -103,6 +107,9 @@ warIco.addEventListener('click',function(){
     buttonLiveTwitch1.classList.add('hide')
     buttonLiveTwitch2.classList.add('hide')
     buttonLiveTwitch3.classList.add('hide')
+    buttonSecurityCamera1.classList.add('hide')
+    buttonSecurityCamera2.classList.add('hide')
+    buttonSecurityCamera3.classList.add('hide')
   }
   else{
     mapWar.classList.add('hide')
@@ -120,6 +127,9 @@ twitchIco.addEventListener('click',function(){
     mapSafe.classList.add('hide')
     mapCar.classList.add('hide')
     mapWar.classList.add('hide')
+    buttonSecurityCamera1.classList.add('hide')
+    buttonSecurityCamera2.classList.add('hide')
+    buttonSecurityCamera3.classList.add('hide')
   }
   else{
     mapTwitch.classList.add('hide')
@@ -140,9 +150,34 @@ fightIco.addEventListener('click',function(){
     buttonLiveTwitch1.classList.add('hide')
     buttonLiveTwitch2.classList.add('hide')
     buttonLiveTwitch3.classList.add('hide')
+    buttonSecurityCamera1.classList.add('hide')
+    buttonSecurityCamera2.classList.add('hide')
+    buttonSecurityCamera3.classList.add('hide')
   }
   else{
 
   }
 })
 
+camIco.addEventListener('click',function(){
+  if(mapBase.classList.contains('hide')){
+    mapBase.classList.remove('hide')
+    buttonSecurityCamera1.classList.remove('hide')
+    buttonSecurityCamera2.classList.remove('hide')
+    buttonSecurityCamera3.classList.remove('hide')
+    mapTwitch.classList.add('hide')
+    mapSafe.classList.add('hide')
+    mapCar.classList.add('hide')
+    mapWar.classList.add('hide')
+  }
+  else if(buttonSecurityCamera1.classList.contains('hide')){
+    buttonSecurityCamera1.classList.remove('hide')
+    buttonSecurityCamera2.classList.remove('hide')
+    buttonSecurityCamera3.classList.remove('hide')
+  }
+  else{
+    buttonSecurityCamera1.classList.add('hide')
+    buttonSecurityCamera2.classList.add('hide')
+    buttonSecurityCamera3.classList.add('hide')
+  }
+})
