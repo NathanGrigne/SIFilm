@@ -1,8 +1,11 @@
-const video = document.querySelector('.videoTrailer')
+/* const video = document.querySelector('.videoTrailer')
 video.addEventListener('click', ()=>{
     video.muted = false
     video.volume = 1
 })
+*/
+
+// Timer
 
 let currentD = 00
 let currentH = 12
@@ -14,7 +17,7 @@ function decompte(){
   let intervalId =setInterval(function(){
   document.querySelector("#timer").innerHTML = currentD +":"+ currentH +":"+ currentM +":"+  currentS
      currentS--
-    if (currentS < 0){ 
+    if (currentS < 0){
       currentM--
       currentS = 59
     }
@@ -32,8 +35,7 @@ function decompte(){
   }, 1000);
 }
 
-// Timer
-
+//Random Image Animation
 
 const img = document.querySelectorAll("#dossier img")
 const folder = document.querySelector("#dossier")
@@ -43,16 +45,9 @@ for (let i = 0; i < img.length; i++) {
      const angle = (Math.random() - 0.5) * 30
 
      img[i].classList.toggle('animate')
-     img[i].style.transform = 'scale(0.35) rotate('+ angle +'deg)'
+     img[i].style.transform = 'scale(1) rotate('+ angle +'deg)'
      img[i].style.zIndex = i + 1
-     img[i].style.top = (Math.random() - 0.5) * 20 + 'vh'
-     img[i].style.left = (Math.random() - 0.5) * 50 + 'vw'
-  },(i+1)*200)
+     img[i].style.top = (Math.random() - 0.5) * 50 + 'vh'
+     img[i].style.left = (Math.random() - 0.5) * 90 + 'vw'
+  },(i+1)*750)
 }
-
-const bestSpot = document.querySelector('.bestSpot')
-const closeBestSpot = document.querySelector('#close')
-
-closeBestSpot.addEventListener('click',function(){
-    bestSpot.classList.add('hide')
-})

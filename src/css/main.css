@@ -173,7 +173,7 @@ div.videoHack h1 {
   animation: sdb05 1.5s infinite;
   box-sizing: border-box;
 }
-  
+
 @keyframes sdb05 {
   0% {
     transform: rotate(-45deg) translate(0, 0);
@@ -187,7 +187,7 @@ div.videoHack h1 {
     opacity: 0;
   }
 }
-  
+
 .demo a {
   position: absolute;
   bottom: 20px;
@@ -386,9 +386,9 @@ nav.navigationjts a:hover{
   color: #BA1A1A;
 }
 
-/* See The Truth
+/*See The Truth*/
 
-.sttody{
+.sttBody{
   background-image: url('../static/images/backgroundHacker.jpg');
   background-size: cover;
 }
@@ -402,26 +402,45 @@ nav.navigationjts a:hover{
 .sttHeaderContainer{
   width: 50%;
   text-align: center;
+  z-index: 100;
 }
 
 .sttHeader h1{
   font-family: "Checkpoint-Charlie";
   font-weight: 100;
   font-size: 800%;
+  margin: 0 auto;
 }
+/* See The Truth Animation */
 
-.videostt{
-  height: 50vh;
+#dossier{
+  position: relative;
+  height: 60vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+#dossier img{
+  display: none;
+  transform: scale(10);
+  position: absolute;
+  transition: all .5s ease-out;
+}
+#dossier img.animate{
+  display: block;
+  transform: scale(1);
 }
 
 /* Navigation Join the Fight */
 
-/* nav.navigationstt{
-  margin-top: 10vh;
+nav.navigationstt{
   width: 100vw;
+  margin-top: 10vh;
   font-family: "Checkpoint-Charlie";
   font-weight: 100;
   color: #000;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav.navigationstt ul{
@@ -448,4 +467,4 @@ nav.navigationstt a.red{
 
 nav.navigationstt a:hover{
   color: #BA1A1A;
-} */
+}
