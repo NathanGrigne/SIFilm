@@ -33,6 +33,104 @@ header.headerGovernement{
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.textscroll{
+  position: absolute;
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  transition: .5s;
+  animation: slideUp 20s;
+  opacity: 0;
+  color: #FFF;
+  text-align: center;
+}
+
+.container_2{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  animation: opacity 25s;
+  transition: 2s;
+}
+
+.container_3{
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barre{
+  width: 30%;
+  height: 10%;
+  background-color: #FFF;
+  border-radius: 5%;
+}
+
+.tr{
+  color: #FFF;
+  font-size: 30px;
+}
+
+#timer{
+  color: #FF0000;
+  font-size: 100px;
+}
+
+.container_4{
+  font-size: 25px;
+  color: #FFF;
+  width: 78%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@keyframes opacity{
+  0%{
+      opacity: 0;
+  }
+
+  85% {
+      opacity: 0;
+  }
+
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes slideUp{
+  0% {
+      transform: translateY(800px);
+      opacity: .9;
+  }
+
+  5% {
+      opacity: 1;
+  }
+
+  90% {
+      transform: translateY(75px);
+      opacity: 1;
+  }
+
+  100% {
+      transform: translateY(75px);
+      opacity: 0;
+  }
 }
 
 /* Main Governement Page */
