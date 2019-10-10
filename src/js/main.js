@@ -150,7 +150,7 @@ fightIco.addEventListener('click',function(){
   if(mapBase.classList.contains('hide')){
     mapBase.classList.remove('hide')
     mapCar.classList.add('hide')
-    mapCar.classList.add('hide')
+    mapWar.classList.add('hide')
     mapTwitch.classList.add('hide')
     mapSafe.classList.add('hide')
     buttonLiveTwitch1.classList.add('hide')
