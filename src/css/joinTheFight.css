@@ -10,6 +10,10 @@
   src: url('../fonts/Checkpoint-Charlie.ttf');
 }
 
+html{
+  height: 100%;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -49,6 +53,8 @@ body{
   font-weight: 100;
   font-size: 700%;
   margin: 0 auto;
+  z-index: 100;
+  position: relative;
 }
 
 .jtsMain{
@@ -74,6 +80,8 @@ nav.navigationHacker{
     font-family: "Carton";
     font-weight: 100;
     color: #000;
+    z-index: 102;
+    position: absolute;
 }
 
 nav.navigationHacker ul{
