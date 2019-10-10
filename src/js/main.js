@@ -1,3 +1,16 @@
+// const voice = document.querySelector('#voicePurge')
+// const header = document.querySelector('.headerGovernement')
+// header.addEventListener('click', ()=>{
+//     voice.muted = false
+//     voice.volume = 1
+// })
+
+const voice = document.querySelector('#voicePurge')
+voice.addEventListener('mouseover', ()=>{
+    voice.muted = false
+    voice.volume = 1
+})
+
 // Timer
 
 let currentD = 0
