@@ -92,8 +92,8 @@ main #close{
   width: 18px;
   height: auto;
   position: absolute;
-  right: 5px;
-  top: 0px;
+  right: 10px;
+  top: 5px;
 }
 
 main .bestSpot h3{
@@ -402,12 +402,14 @@ nav.navigationjts a:hover{
 .sttHeaderContainer{
   width: 50%;
   text-align: center;
+  z-index: 100;
 }
 
 .sttHeader h1{
   font-family: "Checkpoint-Charlie";
   font-weight: 100;
   font-size: 800%;
+  margin: 0 auto;
 }
 /* See The Truth Animation */
 
@@ -415,6 +417,7 @@ nav.navigationjts a:hover{
   position: relative;
   height: 60vh;
   width: 80vw;
+  margin: 0 auto;
 }
 #dossier img{
   display: none;
@@ -430,11 +433,14 @@ nav.navigationjts a:hover{
 /* Navigation Join the Fight */
 
 nav.navigationstt{
-  margin-top: 10vh;
   width: 100vw;
+  margin-top: 10vh;
   font-family: "Checkpoint-Charlie";
   font-weight: 100;
   color: #000;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav.navigationstt ul{
