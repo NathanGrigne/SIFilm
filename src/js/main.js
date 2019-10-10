@@ -55,6 +55,10 @@ const mapSafe = document.querySelector('#mapSafe')
 const mapWar = document.querySelector('#mapWar')
 const mapTwitch = document.querySelector('#mapTwitch')
 
+const buttonLiveTwitch1 = document.querySelector('#buttonLive1')
+const buttonLiveTwitch2 = document.querySelector('#buttonLive2')
+const buttonLiveTwitch3 = document.querySelector('#buttonLive3')
+
 safeIco.addEventListener('click',function(){
   if(mapSafe.classList.contains('hide')){
     mapSafe.classList.remove('hide')
@@ -62,6 +66,9 @@ safeIco.addEventListener('click',function(){
     mapCar.classList.add('hide')
     mapWar.classList.add('hide')
     mapTwitch.classList.add('hide')
+    buttonLiveTwitch1.classList.add('hide')
+    buttonLiveTwitch2.classList.add('hide')
+    buttonLiveTwitch3.classList.add('hide')
   }
   else{
     mapSafe.classList.add('hide')
@@ -76,6 +83,9 @@ carIco.addEventListener('click',function(){
     mapSafe.classList.add('hide')
     mapWar.classList.add('hide')
     mapTwitch.classList.add('hide')
+    buttonLiveTwitch1.classList.add('hide')
+    buttonLiveTwitch2.classList.add('hide')
+    buttonLiveTwitch3.classList.add('hide')
   }
   else{
     mapCar.classList.add('hide')
@@ -90,6 +100,9 @@ warIco.addEventListener('click',function(){
     mapSafe.classList.add('hide')
     mapCar.classList.add('hide')
     mapTwitch.classList.add('hide')
+    buttonLiveTwitch1.classList.add('hide')
+    buttonLiveTwitch2.classList.add('hide')
+    buttonLiveTwitch3.classList.add('hide')
   }
   else{
     mapWar.classList.add('hide')
@@ -100,6 +113,9 @@ warIco.addEventListener('click',function(){
 twitchIco.addEventListener('click',function(){
   if(mapTwitch.classList.contains('hide')){
     mapTwitch.classList.remove('hide')
+    buttonLiveTwitch1.classList.remove('hide')
+    buttonLiveTwitch2.classList.remove('hide')
+    buttonLiveTwitch3.classList.remove('hide')
     mapBase.classList.add('hide')
     mapSafe.classList.add('hide')
     mapCar.classList.add('hide')
@@ -107,6 +123,9 @@ twitchIco.addEventListener('click',function(){
   }
   else{
     mapTwitch.classList.add('hide')
+    buttonLiveTwitch1.classList.add('hide')
+    buttonLiveTwitch2.classList.add('hide')
+    buttonLiveTwitch3.classList.add('hide')
     mapBase.classList.remove('hide')
   }
 })
@@ -118,8 +137,12 @@ fightIco.addEventListener('click',function(){
     mapCar.classList.add('hide')
     mapTwitch.classList.add('hide')
     mapSafe.classList.add('hide')
+    buttonLiveTwitch1.classList.add('hide')
+    buttonLiveTwitch2.classList.add('hide')
+    buttonLiveTwitch3.classList.add('hide')
   }
   else{
-    
+
   }
 })
+

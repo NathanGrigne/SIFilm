@@ -274,14 +274,12 @@ main .bestSpot img{
 /* Map interactive */
 
 .bePrepared .map{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin-left: 5vw;
   position: relative;
   width: 90vw;
 }
 
-.bePrepared .map img{
+.bePrepared .map .mapAll{
   width: 100%;
 }
 
@@ -337,4 +335,27 @@ main .bestSpot img{
 .filterMap .filterIcoBottom{
   display: flex;
   text-align: center;
+}
+
+/* Notification Live Twitch */
+
+#buttonLive1{
+  position: absolute;
+  top: 300px;
+  right: 250px;
+  width: 19px;
+}
+
+#buttonLive2{
+  position: absolute;
+  bottom: 150px;
+  right: 320px;
+  width: 19px;
+}
+
+#buttonLive3{
+  position: absolute;
+  bottom: 250px;
+  left: 550px;
+  width: 19px;
 }
