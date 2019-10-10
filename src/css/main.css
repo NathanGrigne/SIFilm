@@ -674,7 +674,7 @@ main .bestSpot img{
   height: auto;
   position: absolute;
   left: 10%;
-  top: -100px;
+  top: -60px;
   z-index: 50;
 }
 
