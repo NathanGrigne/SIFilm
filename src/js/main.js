@@ -1,9 +1,8 @@
-/* const video = document.querySelector('.videoTrailer')
+const video = document.querySelector('.videoTrailer')
 video.addEventListener('click', ()=>{
     video.muted = false
     video.volume = 1
 })
-*/
 
 // Timer
 
