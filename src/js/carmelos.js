@@ -6,6 +6,11 @@ video.addEventListener('click', ()=>{
     video.volume = 1
 })
 
+window.addEventListener('scroll',function(){
+  video.muted = true
+  video.volume = 0
+})
+
 // Password //
 
 $('#policeform').on('keyup keypress', function(e) {
