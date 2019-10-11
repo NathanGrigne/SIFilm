@@ -278,14 +278,11 @@ buttonSecurityCamera3.addEventListener('click',function(){
 const videoHacker = document.querySelector('.videoHackerAction')
 const body = document.querySelector('body')
 let timer
-
 window.addEventListener('scroll', function() {
 	var element = document.querySelector('.gunsCard2');
   var position = element.getBoundingClientRect();
   window.clearTimeout(timer)
   var url = '../pages/carmelosVideo.html'
-
-	// checking whether fully visible
 	if(position.top >= 0 && position.bottom <= window.innerHeight) {
     videoHacker.classList.remove('hide') 
     body.classList.add('background')
@@ -295,8 +292,6 @@ window.addEventListener('scroll', function() {
     window.reload('true')
   }, 17000)
 	}
-
-	// checking for partial visibility
 	if(position.top < window.innerHeight && position.bottom >= 0) {   
     videoHacker.classList.remove('hide') 
     body.classList.add('background')
