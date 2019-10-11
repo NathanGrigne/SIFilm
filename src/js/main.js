@@ -1,7 +1,7 @@
 // // Warning Message
 
 const header = document.querySelector('.headerGovernement')
-const voice = new Audio ('../src/static/mp3/the-purge-countdown-and-announcement-hd-2015.mp3')
+const voice = new Audio ('src/static/mp3/the-purge-countdown-and-announcement-hd-2015.mp3')
 header.addEventListener('mouseover', ()=>{
     voice.play()
     voice.muted = false
